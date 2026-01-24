@@ -1,3 +1,3 @@
 # SIFT 
 
-Sift is a professional-grade research tool designed to cut through the "get rich quick" noise on YouTube. By leveraging Gemini 1.5 Pro’s 2M+ token context window, Sift extracts, analyzes, and verifies strategies from hundreds of videos simultaneously, delivering structured intelligence directly to your terminal.
+Sift is a professional-grade research tool designed to cut through the 'noise' on YouTube. Currently youtube is bombarded with numerous videos and it is hard to tell which video is worth spending your time on when learning about a new topic, niche, trend etc. By leveraging Gemini 1.5 Pro’s 2M+ token context window, Sift extracts, analyses, and verifies strategies from dozens of videos simultaneously, delivering structured insights directly to your terminal.
