@@ -21,8 +21,9 @@ def main():
         print(f"PROCESSING {video_id}...")
         try:
             get_insights(video_id)
+            print('---VIDEO PROCESSED---\n')
         except Exception as e:
-            print('Error: {e}')
+            print(f'Error: {e}')
 
 if __name__ == "__main__":
     main()  

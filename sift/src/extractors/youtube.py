@@ -15,14 +15,12 @@ def get_insights(user_input):
 
     str_transcript = str(formatted)
 
-    response = gemini_client.generate_insights(str_transcript)
+    ai_insights = gemini_client.generate_insights(str_transcript)
 
-    try:
-        open("ytt_transcript","x")
-    except FileExistsError:
-        with open("ytt_transcript","w") as file: 
-            file.write(formatted)
+    with open("ytt_transcript","w") as file: 
+        file.write(formatted)
 
-    print(response)
+    with open("ytt_insights","w") as file: 
+        file.write(ai_insights)
 
-    return response
+    return ai_insights
